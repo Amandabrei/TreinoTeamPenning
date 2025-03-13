@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Team Penning</title>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Treino de Team Penning</h1>
+        <h2>Cadastrar Competidores</h2>
+        <input type="text" id="competitorName" placeholder="Nome do competidor">
+        <button onclick="addCompetitor()">Adicionar</button>
+        <ul id="competitorList"></ul>
+        <button onclick="generateTeams()">Gerar Times</button>
+        
+        <h2>Classificatória</h2>
+        <table id="qualifyingTable">
+            <thead>
+                <tr>
+                    <th>Trio</th>
+                    <th>Número do Boi</th>
+                    <th>Tempo</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <button onclick="finalizeQualifying()">Finalizar Classificatória</button>
+        
+        <h2>Final</h2>
+        <table id="finalTable">
+            <thead>
+                <tr>
+                    <th>Trio</th>
+                    <th>Tempo da Classificatória</th>
+                    <th>Número do Boi</th>
+                    <th>Tempo da Final</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <button onclick="selectWinners()">Selecionar Campeões</button>
+        
+        <h2>Campeões</h2>
+        <table id="winnersTable">
+            <thead>
+                <tr>
+                    <th>Trio</th>
+                    <th>Tempo Total</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
