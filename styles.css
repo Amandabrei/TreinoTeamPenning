@@ -1,0 +1,56 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-image: linear-gradient(45deg, rgb(109, 100, 53), rgba(255, 255, 0, 0.774));
+    
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    color: blue;
+}
+
+h1{
+    background-color: black;
+    color: white;
+}
+
+h2{
+    background-color: rgb(126, 74, 74);
+    color: white;
+}
+
+.button{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border-radius: 5%;
+}
+
+.buton:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5%;
+
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-radius: 9%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+.error {
+    color: rgb(255, 0, 0);
+}
