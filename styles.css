@@ -1,6 +1,6 @@
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
-    background-image: linear-gradient(45deg, rgb(109, 100, 53), rgba(255, 255, 0, 0.774));
+    background-image: linear-gradient(45deg, rgb(3, 3, 83), rgba(127, 185, 233, 0.774));
     
 }
 
@@ -8,7 +8,7 @@ body {
     width: 80%;
     margin: auto;
     text-align: center;
-    color: blue;
+    color: rgb(14, 14, 15);
 }
 
 h1{
@@ -17,7 +17,7 @@ h1{
 }
 
 h2{
-    background-color: rgb(126, 74, 74);
+    background-color: rgb(43, 66, 82);
     color: white;
 }
 

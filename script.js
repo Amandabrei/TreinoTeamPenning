@@ -91,12 +91,12 @@ function generateTeams() {
     }
 
     // Verifica se todos os competidores têm pelo menos 10 participações
-    for (const competitor of competitors) {
-        if (participationCount[competitor] < 10) {
-            alert(`O competidor ${competitor} não tem o mínimo de 10 participações.`);
-            return;
-        }
-    }
+//    for (const competitor of competitors) {
+//        if (participationCount[competitor] < 10) {
+//            alert(`O competidor ${competitor} não tem o mínimo de 10 participações.`);
+//           return;
+//        }
+//    }
 
     updateQualifyingTable();
 }
