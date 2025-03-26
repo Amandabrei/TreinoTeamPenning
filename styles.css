@@ -1,7 +1,8 @@
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
-    background-image: linear-gradient(45deg, rgb(3, 3, 83), rgba(127, 185, 233, 0.774));
-    
+    background-image: url("leba.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
 .container {
