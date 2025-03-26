@@ -1,8 +1,8 @@
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
-    background-image: url("leba.jpg");
+    background-image: url("leba.jpg") ;
     background-size: cover;
-    background-position: center;
+     
 }
 
 .container {
@@ -10,6 +10,7 @@ body {
     margin: auto;
     text-align: center;
     color: white;
+    font-size: 20px;
 }
 
 h1{
@@ -40,16 +41,21 @@ table {
     width: 100%;
     margin-top: 20px;
     border-collapse: collapse;
+    font-size: 20px;
+    
 }
 
 table, th, td {
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 9%;
+    font-size: 20px;
+    
 }
 
 th, td {
     padding: 8px;
     text-align: center;
+    font-size: 20px;
 }
 
 .error {
