@@ -1,5 +1,7 @@
 body {
     font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: white;
+    padding: 30px;
     background-image: url("leba.jpg") ;
     background-size: cover;
      
